@@ -36,12 +36,11 @@ Python 3.8+
 Libraries: streamlit, numpy, plotly, control
 
 # Installation & Execution
-1. Install the required dependencies:
-
-pip install streamlit numpy plotly control
- 
-2. Run the application locally:
-
-streamlit run control_system_dashboard.py
+### Local Execution
+1. Ensure you have Python 3.8+ installed.
+2. Install the required dependencies and run application:
+```bash
+   pip install -r requirements.txt
+   streamlit run control_system_dashboard.py
 
 
